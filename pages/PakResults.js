@@ -26,7 +26,7 @@ function PakResults() {
 
   const handleRetry = useCallback(async () => {
     router.push({
-      pathname: "/server23",
+      pathname: "/Server23",
       query: { number },
     });
   }, []);

@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     if (number.length == 10 || number == "" || number.length == 13) {
       setIsValid(false);
       router.push({
-        pathname: "/pakResults",
+        pathname: "/PakResults",
         query: { number },
       });
     } else {
