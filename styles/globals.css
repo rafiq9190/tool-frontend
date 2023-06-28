@@ -1,0 +1,235 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+:root {
+  --clr-blue: #309ccd;
+  --clr-mid-blue: #19369a;
+  --clr-dark-blue: #0d1b2a;
+  --clr-green: #50a13b;
+  --clr-light-green: #84aa2a;
+  --clr-orange: #ffb703;
+  --clr-red: #d22f27;
+  --clr-gray: #c4c4c4;
+  --clr-light-gray: #e1e1e1;
+  --clr-dark-gray: #343a40;
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --gutter-x: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p img {
+  width: 750px;
+  margin: 5px auto;
+}
+pre {
+  background-color: rgba(0, 0, 0, 0.548);
+  width: 760px;
+  padding: 6px 18px;
+}
+code {
+  width: 100%;
+  color: white;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+}
+
+.menu-container {
+  background: #3095d1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-nav {
+  padding: 0 12px !important;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+.fontWeight-600{
+  font-weight: 600;
+}
+.heading-color{
+  color:var(--clr-dark-blue)
+}
+.loader-style{
+  width:100px;
+  height: 100px;
+
+}
+.cursorPointer{
+  cursor: pointer;
+}
+.menu-nav-list-item .nav-link {
+  padding: 7px 20px !important;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--clr-white) !important;
+  transition: none;
+}
+.h1-heading {
+  font-size: calc(1.375rem + 1.5vw);
+}
+.active_link {
+  border-bottom: 2px solid #fbb000;
+  border-radius: 5px 5px 0 0;
+}
+.input-container-bg {
+  background-color: #d0e7ff;
+}
+textarea {
+  resize: none;
+}
+.input_style,
+.textarea_style,
+.input_style:focus,
+.textarea_style:focus {
+  background-color: #efefef !important;
+  color: var(--clr-black) !important;
+  font-size: 18px;
+  font-weight: 600 !important;
+  padding: 18px 15px;
+  border-radius: 8px;
+  box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.161) !important;
+  outline: none;
+  border: none;
+}
+.active_link .nav-link {
+  text-shadow: 0 0 0.5px #000;
+  color: var(--clr-dark-gray) !important;
+}
+/* icons styling */
+.icon {
+  display: inline-block !important;
+  background-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  cursor: pointer;
+}
+
+.icon-x-small {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+.icon-small {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-medium {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon-large {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-xl {
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon-base-bg {
+  background-color: #309ccd;
+}
+
+.icon-white-bg {
+  background-color: #ffff;
+}
+.icon-glod-bg {
+  background-color: goldenrod;
+}
+.icon-coin {
+  mask-image: url(../public/icons/coin.svg);
+  -webkit-mask-image: url(../public/icons/coin.svg);
+}
+.icon-search {
+  mask-image: url(../public/icons/search-outline.svg);
+  -webkit-mask-image: url(../public/icons/search-outline.svg);
+}
+
+.side_ad {
+  background-color: #d9d9d9;
+  width: 160px;
+  height: 600px;
+  margin: auto;
+}
+.btn-style {
+  background: linear-gradient(95.64deg, #1c3d9f 0%, #3096cb 100.33%);
+  color: white;
+  border: none;
+}
+.related-btn {
+  background-color: #d0e7ff;
+  color: #007aff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 22px;
+  min-width: 154px;
+  width: fit-content;
+  padding: 12px;
+  text-align: center;
+  display: block;
+}
+.related-btn:hover {
+  background-color: #d0e7ff;
+  color: #007aff;
+}
+.ad-790 {
+  background-color: #d9d9d9;
+  max-width: 790px;
+  height: 90px;
+  margin: auto;
+}
+.btn-style:hover {
+  background: linear-gradient(95.64deg, #2141a1 0%, #3096cb 100.33%);
+  color: white;
+}
+.custom-container {
+  max-width: 100%;
+  padding-right: calc(var(--gutter-x) * 0.5);
+  padding-left: calc(var(--gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.b-ad {
+  background-color: #d9d9d9;
+  max-width: 550px;
+  height: 229px;
+  margin: auto;
+}
+.results {
+  /* border: 2px solid #477aff; */
+  max-width: 599px;
+
+  height: 180px;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1400px) {
+  .custom-container {
+    max-width: 1400px;
+  }
+  .h1-heading {
+    font-size: 3rem;
+  }
+}
