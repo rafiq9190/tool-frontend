@@ -18,7 +18,7 @@ function PakResults() {
       setResult(data);
       setLoading(false);
     } catch (error) {
-      alert(error.response);
+      alert("Please Use Another Server");
 
       // return null;
     }
@@ -69,11 +69,11 @@ function PakResults() {
             <div className="ad-790"></div>
             <h1 className="text-center my-4 fw-bold">{`Results Against ${number}`}</h1>
             <div className="text-center">
-              {!result?.detail?.length > 0 && (
+              {/* {!result?.detail?.length > 0 && (
                 <button className="btn btn-style" onClick={handleRetry}>
                   Try Anthother Server
                 </button>
-              )}
+              )} */}
               {!loading && !result?.success  && (
                 <button className="btn btn-style" onClick={handleRetry}>
                   Try Anthother Server

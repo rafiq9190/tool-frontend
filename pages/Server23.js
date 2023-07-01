@@ -19,7 +19,7 @@ function Server23() {
       setResult(data);
       setLoading(false);
     } catch (error) {
-      alert("Error:", error.response);
+      alert("Error:", "Server is donw Please try again later");
 
       // return null;
     }
@@ -52,7 +52,7 @@ function Server23() {
             type: "image/jpeg",
           },
         ],
-        site_name: "Rajdeep Singh",
+        site_name: "",
       }}
     />
     <div className="custom-container">
