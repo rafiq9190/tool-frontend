@@ -30,15 +30,15 @@ export default function Home({ posts }) {
         description="sim owner checker helps you to track the name, CNIC, address & social media profile of a sim owner in Pakistan. Just enter the number and get the information.
         "
         openGraph={{
-          url: "",
+          url: "https://www.simownerchecker.com",
           title: "Free Sim Owner Checker - Track the Number Details",
           description:
             "sim owner checker helps you to track the name, CNIC, address & social media profile of a sim owner in Pakistan. Just enter the number and get the information.",
           images: [
             {
               url: `${ImageUrl("logo.png")}`,
-              width: 1224,
-              height: 724,
+              width:200,
+              height:200,
               alt: "banner",
               type: "image/jpeg",
             },
@@ -150,7 +150,7 @@ export default function Home({ posts }) {
                   <span className="fs-4">Discover Social Profile </span>
                   <p>
                     Track links to the owner's social media accounts including
-                    FB and Instagram by entering their sim or id number{" "}
+                    FB and Instagram by entering their sim or id number
                   </p>
                 </li>
               </ul>
@@ -188,7 +188,7 @@ export default function Home({ posts }) {
               <p>
                 It works for free of cost, enabling you to perform a quick and
                 reliable SIM ownership check without any worries. There are no
-                restrictions on checking SIM information with a number online.{" "}
+                restrictions on checking SIM information with a number online.
               </p>
               <div className="ad-790"></div>
               <h2>Why Use Our Sim Owner Checker?</h2>
@@ -196,12 +196,12 @@ export default function Home({ posts }) {
                 You can not rely on every other resource to get valid number
                 details online check Pakistan for free. It takes powerful
                 algorithms to fetch accurate sim information with number details
-                in real-time. That's exactly what our tool does.{" "}
+                in real-time. That's exactly what our tool does.
               </p>
               <p>
                 We have built our SIM owner checker to be reliable, fast, and
                 secure. It offers every feature required to ensure a seamless
-                experience.{" "}
+                experience.
               </p>
               <h2>Intuitive Access </h2>
               <p>
@@ -210,7 +210,7 @@ export default function Home({ posts }) {
                 process. It makes information retrieval as seamless as possible,
                 helping you leverage all features without any hassle. Simply
                 access it and enter the number to fetch the associated details.
-                No complex steps to follow along.{" "}
+                No complex steps to follow along.
               </p>
               <h2>Accurate Results</h2>
               <p>
@@ -219,7 +219,7 @@ export default function Home({ posts }) {
                 it saves you from unwanted troubles which come with
                 double-verification processes. You can confidently use our sim
                 number tracker to find validated information, including the
-                owner's name, photo, social links and more.{" "}
+                owner's name, photo, social links and more.
               </p>
               <h2>Faster Checking</h2>
               <p>
@@ -258,7 +258,7 @@ export default function Home({ posts }) {
                 Yes. Our SIM Number Tracker is designed to check CNIC ownership
                 as well. Enter the CNIC number into our tool's search bar and
                 run it. Wait for a moment until it fetches the details about the
-                person whose SIM card is registered on the respective CNIC.{" "}
+                person whose SIM card is registered on the respective CNIC.
               </p>
               <h4>Can I check the SIM owner's name by mobile number?</h4>
               <p>
@@ -266,7 +266,7 @@ export default function Home({ posts }) {
                 information with a number online for free of cost. Just enter
                 the number and click on check. The SIM number details online
                 checker will take only a moment to display its owner
-                information.{" "}
+                information.
               </p>
               <h4>Who can use the SIM Owner Checker?</h4>
               <p>
@@ -302,7 +302,7 @@ export default function Home({ posts }) {
                 illegal. It is important to stay within the boundary of the law
                 while looking up SIM owner or CNIC owner details. Always ensure
                 that you have a legitimate reason for checking and verifying sim
-                owner details in Pakistan.{" "}
+                owner details in Pakistan.
               </p>
               <h4>Can I check the owner of a SIM card or CNIC anonymously?</h4>
               <p>
